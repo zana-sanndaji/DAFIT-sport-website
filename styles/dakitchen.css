@@ -1,0 +1,74 @@
+@import "./reset.css";
+@import "./default.css";
+@import "./font.css";
+@import "./responsive.css";
+@import "./variebels.css";
+@import "./header.css";
+@import "./footer.css";
+
+/* start styles  */
+
+.dakitchen {
+   background: var(--primary-color);
+    margin-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.dakitchen-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: "Archivo Black", "IRANSans";
+    padding: 3rem;
+    color: var(--white-color);
+}
+
+.dakitchen-content__box {
+    background: var(--white-color);
+    padding: 2rem;
+    border-radius: 1rem;  
+    margin-bottom: 2rem;
+}
+
+.dakitchen-content__header {
+    font-family: "Archivo Black", "IRANSans";
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.dakitchen-cintent__p {
+    font-family: "Roboto", "IRANSans";
+    margin-top: 1.5rem;
+}
+
+.dakitchen-content__button {
+    width: 50%;
+    font-size: 1.5rem;
+    border: none;
+    background-color: var(--white-color);
+    border-radius: 0.3rem;
+    color: var(--dark-color);
+    font-size: 1.2rem;
+    height: 3.5rem;
+    margin-top: 4.2rem;
+    padding: 0 1rem;
+    transition: 300ms all ease;  
+}
+
+.dakitchen-content__icon {
+    padding-left: 1rem;
+}
+
+.dakitchen-content__button:hover {
+    background-color: #111111;
+    color: var(--white-color);
+}
+
+.dakitchen-content__button-text {
+    font-size: 1.5rem;
+    font-family: "Roboto", "IRANSans";
+}
+
+/* finish styles  */

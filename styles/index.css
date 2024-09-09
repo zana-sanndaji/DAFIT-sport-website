@@ -1,0 +1,195 @@
+/* start import variebels */
+
+@import "./variebels.css";
+@import "./font.css";
+@import "./default.css";
+@import "./header.css";
+@import "./footer.css";
+@import "../node_modules/animate.css/animate.css";
+
+
+/* finish import variebels */
+
+/* start header  */
+
+/* styles import from header.css  */
+
+/* finish header  */
+
+/* start landing  */
+
+.landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(../images/alexander-redl-d3bYmnZ0ank-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* text-align: center; */
+    height: 60rem;
+    margin-top: 7rem;
+    position: relative;
+}
+
+.landing-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: var(--white-color);
+    width: 50rem;
+    position: absolute;
+    top: 20rem;
+}
+
+/* finish landing  */
+
+/* start classes box  */
+
+.classes {
+    background-color: #111111;
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.classes-header {
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   font-size: 2.5rem;
+   font-family: "Archivo Black", "IRANSans";
+   font-weight: bolder;
+   padding: 3rem;
+   color: var(--white-color);
+}
+
+.classes-box {
+    background-color: var(--white-color);
+    border-radius: 1rem;
+    margin: 2rem 0;
+    transition: all 400ms ease;
+}
+
+.classes-box:hover {
+    transform: translateY(-0.6rem);
+}
+
+.classes-box__img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; 
+}
+
+.classes-box__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.2rem;
+}
+
+.classes-box__title {
+    color: var(--primary-color);
+    padding-top: 1rem 0;
+    font-family: "Roboto", "IRANSans";
+    font-weight: 600;
+    margin: 0.8rem 0;
+}
+
+/* finish classes box  */
+
+/* start input styles  */
+
+.input {
+    background-color: var(--primary-color);
+    padding-bottom: 3rem;
+}
+
+.input-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.input-header__title {
+    font-family: "Archivo Black", "IRANSans";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form__username, .login-form__password {
+    position: relative;
+}
+
+.login-form__username-input, .login-form__password-input {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    padding: 1rem 1.1rem;
+    margin: 0.8rem 0;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+}
+
+.login-form__username-icon, .login-form__password-icon {
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    font-size: 2.2rem;
+    color: #ccc;
+}
+
+.login-form__password-text {
+    color: var(--white-color);
+    margin: 1.5rem;
+    font-family: "IRANSans";
+    font-size: 1.4rem;
+}
+
+.login-form__btn {
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 0.8rem;
+    background-color: var(--white-color);
+    transition: 300ms all ease;
+}
+
+.login-form__btn:hover {
+    background-color: #1e83f0;
+}
+
+.login-form__btn-icon {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.login-form__btn-text {
+    color: var(--primary-color);
+    margin: 0 auto;
+    font-family: "IRANSans";
+}
+
+
+.input-img__right {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(../images/alexander-redl-d3bYmnZ0ank-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.4rem;
+    border-radius: 0.3rem;  
+}
+
+/* finish input styles  */
+
+/* start footer styles  */
+/* styles import from footer.css */
+/* finish footer styles  */

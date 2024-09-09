@@ -1,0 +1,284 @@
+/* start header styles  */
+
+.header-fixed {
+    top: 0;
+    position: fixed;
+    background-color: var(--white-color);
+    z-index: 100;
+}
+
+.main-header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+}
+
+.main-header__left {
+    display: flex;
+}
+
+.main-header__name {
+    font-size: 2.5rem;
+    font-family: "Archivo Black";
+    color: var(--primary-color);
+    padding: 2rem 1rem 0;
+}
+
+.main-header__name:hover {
+    color: var(--primary-color);
+}
+
+.main-header__menu {
+    display: flex;
+}
+
+.main-header__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 2rem 1rem 0;
+}
+
+.main-header__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: "IRANSans";
+}
+
+.main-header__link-icon {
+    margin-left: 1rem;
+  }
+
+.onwork-item {
+    opacity: 0.6;
+}
+
+
+  /* start dropdown styles  */
+
+.main-header__dropdown {
+    position: absolute;
+    top: 5.5rem;
+    left: 0;
+    right: 0;
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    transition: all 200ms ease-in-out;
+    border-radius: 0.5rem;
+    width: 14rem;
+    z-index: 1;
+    padding: 1rem 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-header__item:hover .main-header__dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 6.5rem;
+}
+
+.main-header__dropdown-item {
+    font-size: 0.5rem;
+}
+
+.main-header__dropdown-link {
+    display: block;
+    padding: 0.6rem 2rem;
+    font-size: 1.4rem;
+    font-family: "IRANSans";
+    /* color: var(--white-color); */
+    /* transition: all 400ms ease; */
+}
+
+.main-header__dropdown-link:hover {
+    color: #1e83f0;
+}
+
+  /* finish dropdown styles  */
+
+
+.main-header__right {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem 0;
+}
+
+.main-header__right-content {
+    width: 4.3rem;
+    padding: 0 0.6rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.main-header__right-flags {
+    width: 100%;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+/* finish header styles  */
+
+/* start navmenu styles  */
+
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: -25rem;
+    bottom: 0;
+    width: 25rem;
+    background-color: #111111;
+    padding: 2.5rem;
+    transition: all 250ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu--open {
+    left: 0;
+}
+
+.nav-menu__title {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-family: "Archivo Black";
+    border-bottom: 1px solid var(--white-color);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/*
+
+==============
+  Mobile Menu
+==============
+
+*/
+
+.mobile-menu {
+    margin-bottom: 3rem;
+}
+
+.mobile-menu__item {
+    margin-bottom: 1rem;
+    margin: 1.5rem 1rem;
+}
+
+.mobile-menu__link {
+    color: var(--white-color);
+    position: relative;
+    transition: all 250ms ease-in-out;
+    font-family: "IRANSans";
+    display: flex;
+    width: 100%; 
+}
+
+.mobile-menu__link::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 0;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: var(--white-color);
+    transition: all 250ms ease-in-out;
+}
+
+.mobile-menu__link:hover {
+    padding-left: 2.2rem;
+}
+
+.mobile-menu__link:hover::before {
+    width: 1.6rem;
+}
+
+.nav__btn {
+    display: none;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav__btn-line {
+    display: block;
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: var(--primary-color);
+    position: relative;
+    transition: all 150ms ease-in-out;
+}
+
+.mobile-menu__item-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.mobile-menu__item-content-text {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-family: "IRANSans";
+}
+
+.mobile-menu__item-content-flag {
+    background-color: transparent;
+    height: 5rem;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.mobile-menu__item-content-flags {
+    width: 4rem;
+    margin: 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.nav__btn-line::before,
+.nav__btn-line::after {
+    content: ' ';
+    position: absolute;
+    width: 3rem;
+    height: 0.3rem;
+    border-radius: 5rem;
+    background-color: var(--primary-color);
+    transition: all 200ms ease-in-out;
+}
+
+.nav__btn-line::before {
+    top: -0.8rem;
+}
+
+.nav__btn-line::after {
+    top: 0.8rem;
+}
+
+.nav__btn--open .nav__btn-line {
+    background-color: transparent;
+}
+
+.nav__btn--open .nav__btn-line::before {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.nav__btn--open .nav__btn-line::after {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* finish navmenu styles  */

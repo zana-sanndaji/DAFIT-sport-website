@@ -1,0 +1,220 @@
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+    .main-header__link {
+        font-size: 1.4rem;
+    }
+    .journey-text h2 {
+        font-size: 3rem;
+    }
+    .journey-text p {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .main-header__name {
+        font-size: 2rem;
+    }
+    .main-header__link {
+        font-size: 1.2rem;
+    }
+    .main-header__right-content {
+        width: 4rem;
+    }
+    .landing-title {
+        font-size: 2.7rem;
+    }
+    .classes-header {
+        font-size: 2rem;
+    }
+    .classes-box__title {
+        font-size: 1.2rem;
+    }
+    .input-header__title {
+        font-size: 2rem;
+    }
+    .login-form__password-text {
+        font-size: 1.4rem;
+    }
+    .journey-text p {
+        font-size: 1.6rem;
+        line-height: 2.9rem;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .section-text p {
+        font-size: 1.5rem;
+    }
+    .new-member__title {
+        font-size: 2rem;
+    }
+    .new-member__p {
+        font-size: 1.6rem;
+    }
+    .packList .packContainer .pack .header h2 {
+        font-size: 2rem;
+    }
+    .golden-package__title {
+        font-size: 2rem;
+    }
+    .golden-package__p {
+        font-size: 1.6rem;
+    }
+    .dakitchen-header {
+        font-size: 2rem;
+    }
+    .dakitchen-content__header {
+        font-size: 1.8rem;
+    }
+    .personal-p p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 820px) {
+    .main-header__right-content, .main-header__menu {
+        display: none;
+    }
+    .nav__btn, .nav-menu {
+        display: flex;
+    }
+    .landing-title {
+        font-size: 2.3rem;
+    }
+    .landing {
+        height: 50rem;
+    }
+    .footer-icons__item {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .footer-privacy-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .journey-img__content {
+        display: none;
+    }
+    .journey-text h2 {
+        font-size: 2rem;
+    }
+    .journey-text p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+    .dakitchen-cintent__p {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    .landing {
+        height: 40rem;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(../images/alexander-redl-d3bYmnZ0ank-unsplash\ 3.jpg);
+        background-size: cover;
+    }
+    .landing-title {
+        width: 30rem;
+        font-size: 2rem;
+    }
+    .input-img__right {
+        display: none;
+    }
+    .classes-header {
+        font-size: 1.6rem;
+    }
+    .input-header__title {
+        font-size: 1.6rem;
+    }
+    .footer-icons__item {
+        width: 2rem;
+        height: 2rem;
+    }
+    .footer-privacy-text {
+        font-size: 1.2rem;
+    }
+    .about-title h1 {
+        font-size: 1.6rem;
+    }
+    .about-title p {
+        font-size: 1.4rem;
+    }
+    .journey-text h2 {
+        font-size: 1.6rem;
+    }
+    .journey-text p {
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+    }
+    .section-title {
+        font-size: 1.6rem;
+    }
+    .section-text p {
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+    }
+    .new-member__title {
+        font-size: 1.8rem;
+    }
+    .new-member__p {
+        font-size: 1.4rem;
+    }
+    .packList .packContainer .pack .header h2 {
+        font-size: 1.8rem;
+    
+    }
+    .golden-package__title {
+        font-size: 1.4rem;
+    }
+    .golden-package__p {
+        font-size: 1.4rem;
+    }
+    .dakitchen-header {
+        font-size: 1.6rem;
+    }
+    .dakitchen-content__header {
+        font-size: 1.5rem;
+    }
+    .dakitchen-cintent__p {
+        font-size: 1.3rem;
+    }
+    .dakitchen-content__button-text {
+        font-size: 1rem;
+    }
+    .personal-title h2 {
+        font-size: 1.4rem;
+    }
+    .personal-p p {
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+@media (max-width: 380px) {
+    
+    .landing {
+        height: 30rem;
+        background-size: cover;
+    }
+    .landing-title {
+        width: 20rem;
+        font-size: 1.3rem;
+    }
+    .classes-header {
+        font-size: 1.2rem;
+    }
+    .input-header__title {
+        font-size: 1.2rem;
+    }
+
+}

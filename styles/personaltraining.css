@@ -1,0 +1,76 @@
+@import "./reset.css";
+@import "./default.css";
+@import "./font.css";
+@import "./responsive.css";
+@import "./variebels.css";
+@import "./header.css";
+@import "./footer.css";
+
+.personal-main{
+    background-color: var(--dark-color);
+    margin-top: 7rem;
+}
+.personal-boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-box{
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.personal-box:hover .personal-content{
+    background-color: rgba(74, 39, 39, .9);
+}
+
+.personal-box:hover .personal-title{
+    opacity: 1;
+}
+
+.personal-title h2 {
+    font-family: "Archivo Black", "IRANSans";
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.personal-p p {
+    font-family: "Roboto", "IRANSans";
+    padding: 1rem;
+}
+
+.personal-img img{
+    margin-top: 3rem;
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.personal-content{
+    transition: all 200ms ease-in-out;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    background-color: rgba(74, 39, 39, 0.7);
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.personal-title{
+    transition: all 200ms ease-in-out;
+
+    background: var(--white-color);
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .5;
+}

@@ -1,0 +1,149 @@
+@import "./reset.css";
+@import "./default.css";
+@import "./font.css";
+@import "./responsive.css";
+@import "./variebels.css";
+@import "./header.css";
+@import "./footer.css";
+
+/* start styles */
+
+main{
+    background-color: #111111;
+    color: var(--white-color);
+    padding-top: 4rem;
+    margin-top: 7rem;
+}
+
+section {
+    padding-top: 100px;
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Archivo Black", "IRANSans";
+    /* margin-bottom: 100px; */
+}
+.section-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.section-img img{
+    width: 90%;
+    height: 300px;
+    border-radius: 1rem;
+}
+.section-text{
+    display: flex;
+    justify-content: center;
+    padding: 0 7rem;
+    padding-bottom: 4rem;
+}
+
+.section-text p {
+    font-family: "Roboto", "IRANSans";
+    font-size: 1.7rem;
+    line-height: 3rem;
+}
+
+/* finish styles */
+
+.input {
+    background-color: var(--primary-color);
+    padding-bottom: 3rem;
+}
+
+.input-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.input-header__title {
+    font-family: "Archivo Black", "IRANSans";
+    font-size: 2.5rem;
+    color: var(--white-color);
+
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form__username, .login-form__password {
+    position: relative;
+}
+
+.login-form__username-input, .login-form__password-input {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    padding: 1rem 1.1rem;
+    margin: 0.8rem 0;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+}
+
+.login-form__username-icon, .login-form__password-icon {
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+    font-size: 2.2rem;
+    color: #ccc;
+}
+
+.login-form__password-text {
+    color: var(--white-color);
+    margin: 1.5rem;
+    font-family: "IRANSans";
+    font-size: 1.4rem;
+}
+
+.login-form__btn {
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 1.2rem 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 0.8rem;
+    background-color: var(--white-color);
+    transition: 300ms all ease;
+}
+
+.login-form__btn:hover {
+    background-color: #1e83f0;
+}
+
+.login-form__btn-icon {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.login-form__btn-text {
+    color: var(--primary-color);
+    margin: 0 auto;
+    font-family: "IRANSans";
+}
+
+
+.input-img__right {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(../images/alexander-redl-d3bYmnZ0ank-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.4rem;
+    border-radius: 0.3rem; 
+}
+
+/* finish input styles  */

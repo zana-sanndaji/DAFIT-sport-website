@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #000000;
+    --white-color: #ffffff;
+    --grey-color: #b5adad;
+    --dark-color: #464749;
+    --primary-font: "Roboto", Arial, Helvetica, sans-serif;
+    --primary-font-md: "Roboto Medium", Arial, Helvetica, sans-serif;
+    --secondary-font: "Archivo Black", Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,61 @@
+@import "./reset.css";
+@import "./default.css";
+@import "./font.css";
+@import "./responsive.css";
+@import "./variebels.css";
+@import "./header.css";
+@import "./footer.css";
+
+/* start styles  */
+
+.classes {
+    background-color: #111111;
+    display: flex;
+    padding-bottom: 3rem;
+    margin-top: 7rem;
+}
+
+.classes-header {
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+   font-size: 2.5rem;
+   font-family: "Archivo Black";
+   padding: 3rem;
+   color: var(--white-color);
+}
+
+.classes-box {
+    background-color: var(--white-color);
+    border-radius: 1rem;
+    margin: 2rem 0;
+    transition: all 400ms ease;
+}
+
+.classes-box:hover {
+    transform: translateY(-0.6rem);
+}
+
+.classes-box__img {
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem; 
+}
+
+.classes-box__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1.2rem;
+}
+
+.classes-box__title {
+    color: var(--primary-color);
+    padding-top: 1rem 0;
+    margin: 1rem;
+    font-family: "IRANSans";
+    direction: rtl;
+}
+
+/* finish styles  */

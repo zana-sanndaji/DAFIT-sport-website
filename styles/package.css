@@ -1,0 +1,274 @@
+@import "./reset.css";
+@import "./default.css";
+@import "./font.css";
+@import "./responsive.css";
+@import "./variebels.css";
+@import "./header.css";
+@import "./footer.css";
+
+
+/* start packages styles  */
+
+.packages {
+    background-color: var(--primary-color);
+    margin-top: 7rem;
+}
+
+.new-member {
+    width: 87%;
+    padding-top: 6rem;
+    margin: 0 auto;
+}
+
+.new-member__item {
+    background: #f9f9f9;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.new-member__title {
+    font-family: "Archivo Black";
+    font-size: 2.5rem;
+    padding: 0 auto;
+    color: var(--primary-color);
+}
+
+.new-member__p {
+    font-family: "Roboto";
+    font-size: 2rem;
+    color: #545454;
+}
+
+.packList {
+    width: 90%;
+    padding-top: 2rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    min-height: 2rem;
+    font-family: "Roboto";
+  }
+
+  .packList .packContainer {
+    color: #b7b7b7;
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+  .packList .packContainer .packRadio {
+    position: absolute;
+    opacity: 0;
+    display: none;
+  }
+  .packList .packContainer .packRadio:checked + .pack {
+    -webkit-box-shadow: 0px 0px 0px 3px #0090ff;
+    -moz-box-shadow: 0px 0px 0px 3px #0090ff;
+    box-shadow: 0px 0px 0px 3px #0090ff;
+  }
+  /* .packList .packContainer .packRadio:checked + .pack::before {
+    content: url("data:image/svg+xml; utf8, <svg version='1.1'  fill='white' width='14px' id='Capa_1' xmlns='http://www.w3.org/2000/svg'  xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 236.988 236.988' style='enable-background:new 0 0 236.988 236.988;' xml:space='preserve'><polygon points='198.098,24.326 87.543,134.881 38.891,86.229 0,125.121 87.543,212.662 236.988,63.217 '/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>");
+    position: absolute;
+    display: block;
+    right: 33px;
+    top: 29px;
+    z-index: 10;
+  } */
+  /* .packList .packContainer .packRadio:checked + .pack::after {
+    background: #0090ff;
+  } */
+  .packList .packContainer .packRadio:checked + .pack .price b {
+    color: #0090ff;
+  }
+  .packList .packContainer .pack {
+    background: #f9f9f9;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+  }
+  .packList .packContainer .pack::before {
+    transition: all 0.4s ease-in;
+  }
+  .packList .packContainer .pack::after {
+    content: " ";
+    background: white;
+    position: absolute;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    top: 30px;
+    right: 30px;
+    transition: all 0.4s ease-in;
+  }
+  .packList .packContainer .pack .header h2 {
+    font-size: 2.4rem;
+    color: #545454;
+  }
+  .packList .packContainer .pack .price {
+    margin-top: 4rem;
+  }
+  .packList .packContainer .pack .price b {
+    font-size: 2em;
+    display: block;
+    color: #545454;
+  }
+  .packList .packContainer .pack .features p {
+    padding: 3rem 3rem;
+  }
+  .packList .packContainer .pack .features ul {
+    padding: 0 3rem;
+    text-align: left;
+    list-style: none;
+  }
+  .packList .packContainer .pack .features ul li {
+    position: relative;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+  }
+  .packList .packContainer .pack .features ul li.active {
+    color: #545454;
+  }
+  .packList .packContainer .pack .features ul li.active::before {
+    display: block;
+    position: absolute;
+    left: -20px;
+    content: url("data:image/svg+xml; utf8, <svg version='1.1'  fill='rgb(0,144,255)' width='12px' id='Capa_1' xmlns='http://www.w3.org/2000/svg'  xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 236.988 236.988' style='enable-background:new 0 0 236.988 236.988;' xml:space='preserve'><polygon points='198.098,24.326 87.543,134.881 38.891,86.229 0,125.121 87.543,212.662 236.988,63.217 '/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>");
+  }
+
+  .golden-package {
+    width: 87%;
+    padding-top: 2rem;
+    margin: 0 auto;
+  }
+
+  .golden-package__item {
+    background: rgb(247, 193, 55);
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .golden-package__title {
+    font-family: "Archivo Black";
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding: 0 auto;
+    color: #2f2e2e;
+}
+
+.golden-package__p {
+    font-family: "Roboto";
+    font-size: 2rem;
+    color: #545454;
+}
+
+
+/* input styles  */
+
+.input {
+  background-color: var(--primary-color);
+  padding-bottom: 3rem;
+}
+
+.input-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.input-header__title {
+  font-family: "Archivo Black", "IRANSans";
+  font-size: 2.5rem;
+  color: var(--white-color);
+
+}
+
+.login-form {
+  width: 100%;
+}
+
+.login-form__username, .login-form__password {
+  position: relative;
+}
+
+.login-form__username-input, .login-form__password-input {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  padding: 1rem 1.1rem;
+  margin: 0.8rem 0;
+  border-radius: 0.3rem;
+  font-size: 1.4rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+}
+
+.login-form__username-icon, .login-form__password-icon {
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  font-size: 2.2rem;
+  color: #ccc;
+}
+
+.login-form__password-text {
+  color: var(--white-color);
+  margin: 1.5rem;
+  font-family: "IRANSans";
+    font-size: 1.4rem;
+}
+
+.login-form__btn {
+  width: 100%;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 0.8rem;
+  background-color: var(--white-color);
+  transition: 300ms all ease;
+}
+
+.login-form__btn:hover {
+  background-color: #1e83f0;
+}
+
+.login-form__btn-icon {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.login-form__btn-text {
+  color: var(--primary-color);
+  margin: 0 auto;
+  font-family: "IRANSans";
+}
+
+
+.input-img__right {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url(../images/alexander-redl-d3bYmnZ0ank-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.4rem;
+  border-radius: 0.3rem;
+  /* padding: 1rem 1.1rem; */   
+}
+
+/* finish styles  */
+
+/* finish packages styles  */
+
